@@ -24,6 +24,27 @@ Complete the following endpoints:
 
 Add support for **sessions** and **cookies**, use them to keep a record of logged in users across requests.
 
+
+## TODO 
+
+[x] - Create package.json
+[x] - npm i
+[x] - npm install -g knex
+[x] - npm install knex sqlite3
+[x] - npm install express
+[x] - add script tag to package.json
+[x] - knex init
+[x] - create index.js
+[x] - create server.js
+
+
+[] - Create migrations
+    [] - create tables from drafted DB
+    [] - Check SQL lite
+
+
+
+
 ## Stretch Problem
 
 - Write a piece of **global** middleware that ensures a user is logged in when accessing _any_ route prefixed by `/api/users`.
